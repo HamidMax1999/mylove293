@@ -1,0 +1,24 @@
+.gradient-bg {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.gradient-bg2 {
+    background: linear-gradient(to bottom right, #ffe0ec, #f8efff);
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    color: #444;
+}
+
+/* .c-img {
+    height: 100vh;
+} */
+
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}

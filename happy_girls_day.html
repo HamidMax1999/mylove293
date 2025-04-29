@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Girl's Day, Asal ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(145deg, #ffe6f0, #fff0f5);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 30px;
+      text-align: center;
+      animation: fadeInPage 2s ease-out forwards;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #d6336c;
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: slideInDown 1.2s ease-out 0.8s forwards;
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.7;
+      margin: 20px 0;
+      opacity: 0;
+      animation: fadeInText 1.5s ease forwards;
+    }
+
+    .p1 { animation-delay: 1.5s; }
+    .p2 { animation-delay: 2.5s; }
+    .p3 { animation-delay: 3.5s; }
+
+    .heart {
+      color: #e6005c;
+      font-size: 2em;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-style: italic;
+      color: #555;
+      opacity: 0;
+      animation: fadeInText 1.5s ease 4.5s forwards;
+    }
+
+    .decor {
+      font-size: 4em;
+      margin: 20px 0;
+      color: #ff6699;
+      animation: floatY 3s ease-in-out infinite;
+    }
+
+    /* Animations */
+    @keyframes fadeInPage {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInText {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.15); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes floatY {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="decor">💖</div>
+    <h1>Happy Girl’s Day, Asal!</h1>
+
+    <p class="p1">
+      You are more than beautiful — you are inspiring, strong, and full of light.<br>
+      Every day with you feels brighter, softer, and filled with purpose.
+    </p>
+
+    <p class="p2">
+      On this special day, I just want to remind you how deeply loved you are.<br>
+      Your kindness, your smile, your soul — they make my world better.
+    </p>
+
+    <p class="p3 heart">❤️ Forever yours, Hamid</p>
+
+    <div class="decor">🌸</div>
+
+    <div class="footer">
+      "In you, I've found my calm, my chaos, and everything in between."
+    </div>
+  </div>
+</body>
+</html>

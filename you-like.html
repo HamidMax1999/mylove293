@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>She's Thinking About Biting Me 😳</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Comfortaa', cursive;
+      background: linear-gradient(to top right, #fbc2eb, #a6c1ee);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .thought {
+      font-size: 1.2rem;
+      color: #ffffffbb;
+      margin-bottom: 2rem;
+    }
+
+    .girl {
+      width: 180px;
+      height: auto;
+      margin: 0 auto;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>She likes Biting Me 😳</h1>
+    <p class="thought">Or maybe... she already has in her heart?</p>
+    
+    <!-- Simple SVG cartoon girl with thinking face -->
+    <svg class="girl" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="30" fill="#FFD1DC" />
+      <ellipse cx="22" cy="25" rx="4" ry="6" fill="#000"/>
+      <ellipse cx="42" cy="25" rx="4" ry="6" fill="#000"/>
+      <path d="M22 45 Q32 55 42 45" stroke="#000" stroke-width="2" fill="none"/>
+      <path d="M26 18 Q32 10 38 18" stroke="#000" stroke-width="2" fill="none"/>
+      <circle cx="28" cy="30" r="1" fill="#fff"/>
+      <circle cx="36" cy="30" r="1" fill="#fff"/>
+      <path d="M24 38 Q32 40 40 38" stroke="#000" stroke-width="1.5" fill="none"/>
+    </svg>
+  </div>
+</body>
+</html>
